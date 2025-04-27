@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "example_package_ramos"
-version = "0.2.2"
+version = "0.2.3"
 authors = [
   { name="marco ramos", email="ramosmarco95@gmail.com" },
 ]
@@ -15,8 +15,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
-license = "MIT"
-
+license = { file = "LICENSE" }
 
 
 [project.urls]
