@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "example_package_ramos"
-version = "0.2.6"
+version = "0.2.7"
 authors = [
   { name="marco ramos", email="ramosmarco95@gmail.com" },
 ]
@@ -15,7 +15,9 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
+license = "MIT"  # or any appropriate license for your package
+dependencies = []  # if there are any dependencies, list them here
 
 [project.urls]
-Homepage = "https://github.com/pypa/sampleproject"
-Issues = "https://github.com/pypa/sampleproject/issues"
+Homepage = "https://github.com/ramosmarco95/example-package-ramos"
+Issues = "https://github.com/ramosmarco95/example-package-ramos/issues"
