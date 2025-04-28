@@ -1,10 +1,10 @@
 [build-system]
-requires = ["hatchling >= 1.21"]
+requires = ["hatchling == 1.21"]
 build-backend = "hatchling.build"
 
 [project]
 name = "example_package_ramos"
-version = "0.2.9"  # Ensure this is the correct version
+version = "0.2.10"  # Ensure this is the correct version
 authors = [
   { name="Marco Ramos", email="ramosmarco95@gmail.com" },
 ]
